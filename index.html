@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+<style>
+    body {
+        background-color: wheat;
+    }
+    .tablecol {
+        background-color: gray;
+        border: 1px solid cornflowerblue;
+    }
+    #null {
+        background-color: null;
+        border: null;
+    }
+</style>
+-->
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">              <!-- Menciona información asociada a la pág, metadata, en este caso el uso de UTF-8 para encoding-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio personal</title>                                         <!-- Título de la pestaña-->
+</head>
+<body>
+    <table id="null">
+        <tr>
+            <td><img src="https://images.nightcafe.studio//assets/profile.png?tr=w-1600,c-at_max" width="150px" height="150px" alt="Profile picture"></td>
+            <td>
+                <h3>Nombre</h3>
+                <p><em>Texto italico</em></p>
+                <p>Algoalgoalgo párrafo, idk, blablablalbla, descripción</p>
+            </td>
+        </tr>
+    </table>
+    <hr size="3" noshade>
+    <h3>Educación:</h3>
+    <ul>
+        <li>Primaria x</li>
+        <li>Secundaria xx</li>
+        <li>Terciaria xxx</li>
+    </ul>
+    <hr size="3px" noshade>
+    <h3>Experiencia</h3>
+    <table cellspacing="10px">                                     <!-- Podría utilizar atributo border="px", pero está deprecated, no se recomienda, mejor css-->
+        <thead>
+            <tr>
+                <th scope="col">Cuándo</th>
+                <th scope="col">Dónde</th>
+                <th scope="col">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fecha exp1</td>
+                <td>Where exp1</td>
+                <td>Notes exp1</td>
+            </tr>
+            <tr>
+                <td>Fecha exp2</td>
+                <td>Where exp2</td>
+                <td>Notes exp2</td>
+                <td>nothing</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr size="3" noshade>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contact.html">Contacto</a>
+    <br>
+    <h3>Skills</h3>
+    <!--                    Estructura confusa con HTML y tablas anexadas, razón por la cual se prefiere el uso de CSS para este caso
+    <table border="1px">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Python</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>CSGO</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    -->
+    <table cellspacing="10px">
+        <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Otra cosa</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+</body>
+</html>
